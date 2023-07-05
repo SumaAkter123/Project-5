@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(221, 197, 167);
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Oswald', sans-serif;
+
+  
+}
+
+.container{
+    width: 1200px;
+    
+    margin: 0 auto;
+}
+
+header{
+
+    width: 100%;
+    background-color: #ddd
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+}
+nav ul li {
+    
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+
+main{
+width: 120%;
+overflow: hidden;
+display: flex;
+}
+
+main section{
+float: left;
+width: 81.2%;
+background-color:darkcyan;
+padding: 15px;
+}
+
+main aside{
+float: right;
+width: 30%;
+background-color: darkgoldenrod;
+padding: 15px;
+}
+
+footer{
+
+background-color: lightblue;
+text-align: center;
+padding: 10px;
+}
